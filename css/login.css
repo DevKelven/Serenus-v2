@@ -114,6 +114,15 @@ main {
     transition: 1s;
 }
 
+@keyframes anima {
+    0%, 100% {
+        filter: blur();
+    }
+    50% {
+        filter: blur(15px);
+    }
+}
+
 .form-register{
     transform: translateX(-100%);
     z-index: -1;
@@ -122,6 +131,7 @@ main {
 
 .login-container.move .form-login{
     transform: translateX(100%);
+
 }
 
 .login-container.move .form-register{
@@ -154,6 +164,7 @@ main {
     border-radius: 12px;
     box-shadow: 0 5px 20px #36015D;
     overflow: hidden;
+
 }
 
 @media (max-width:768px){
@@ -269,3 +280,15 @@ main {
 .voltar{
     color: white;
 }
+
+.overlay .overlay-container{
+    animation: anima 1s ease;
+    
+}
+
+.checkbox, .checkbox2{
+    cursor: pointer;
+    transform: translateX(-35px) translateY(3px);
+    background-image: url("/image/olho1.png");
+}
+

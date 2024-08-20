@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+    background: #36015D;
+    height: 500px;
+}
+
+.hide-on-scroll {
+    transform: translateX(-150%);
+}
+
+.navbar.navbar.fixed-top,
+.offcanvas.offcanvas-end.text {
+    background: #36015D; /*COR DE ANTES #050A30*/
+}
+
+.dropdown-menu.dropdown-menu {
+    background: #5b6294;
+}
+
+.navbar-toggler{
+    margin-right: 70px;
+    border-radius: 10px;
+    height: 60px;
+    width: 70px;
+    background: #fff;
+    font-size: 1.7rem;
+}
+
+.navbar.navbar.fixed-top,
+.offcanvas.offcanvas-end.text,
+.navbar.navbar.fixed-top a {
+    color: #fff;
+}
+
+.offcanvas-title {
+    width: 220px;
+    height: 120px;
+}
+
+.navbar.navbar.fixed-top a img {
+    height: 120px;
+    width: 190px;
+    position: relative;
+    left: 40%;
+}
+
+.navbar.navbar.fixed-top .offcanvas-header h5 img {
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown-item:hover{
+    background: #003a92;
+}
+
+#texto-inicio{
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    top:20%;
+    transform: translateX(850px);
+    width: 430px;
+
+}
+
+#projeto{
+    display: flex;
+    width: 1500px;
+    transform: translate(20%, 30%);
+
+}
+
+.projeto2 h1{
+    font-size: 50px;
+}
+
+.projeto2 p{
+    font-size: 20px;
+}
