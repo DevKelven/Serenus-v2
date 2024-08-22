@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+p{
+    font-family: "Lora", serif;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+}
 
 header {
     background: #36015D;
     height: 500px;
+    width: 100%;
 }
 
 .hide-on-scroll {
@@ -60,21 +71,199 @@ header {
     position: absolute;
     top:20%;
     transform: translateX(850px);
-    width: 430px;
-
+    width: 500px;
+    font-family: "Montserrat", sans-serif;
 }
 
+
+/* AQUI COMEÇA O MAIN */
 #projeto{
     display: flex;
-    width: 1500px;
-    transform: translate(20%, 30%);
-
+    width: 1700px;
+    column-gap: 140px;
+    position: relative;
+    left: 10%;
+    margin-top: 100px;
+    font-family: "Lora", serif;
+    font-weight: 600;
 }
 
 .projeto2 h1{
     font-size: 50px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .projeto2 p{
     font-size: 20px;
+}
+
+#slogan{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-top: 100px;
+}
+
+#slogan h1{
+    width: 550px;
+}
+
+#persona{
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 500px ;
+    margin-top: 50px;
+    row-gap: 60px;
+}
+
+#persona section{
+    row-gap: 60px;
+}
+
+
+#persona section p{
+    font-size: 30px;
+    width: 400px;
+    font-weight: 600;
+}
+
+.titulo{
+    transform: translateX(120px);
+    margin-bottom: 120px;
+}
+
+
+/*CARDS*/
+
+#card{
+    width: 400px;
+    height: 500px;
+    background-color: #D9D9D9;
+    border-radius: 0px 0px 60px 60px;
+}
+
+.image-card img{
+    width: 400px;
+    height: 200px;
+    border: 4px solid #A060CE;
+}
+
+
+
+
+/*FOOTER*/
+
+
+.spaceSectionFooter {
+    height: 300px;
+    background: #fff;
+}
+
+footer {
+    background: #561E7F;
+    color: #fff;
+}
+
+#colFooter {
+    margin-top: 20px;
+}
+
+#menuFooter,
+#contatoFooter {
+    margin-top: 30px;
+}
+
+#colFooter img {
+    height: 100px;
+    display: flex;
+}
+.footerP {
+    text-align: left;
+}
+#menuFooter {
+    text-align: justify;    
+}
+#menuFooter a {
+    text-decoration: none;
+    color: #fff;
+}
+.spaceAdoFooter {
+    height: 15px;
+    background: transparent;
+}
+#contatoFooter h4 {
+    text-align: left;
+}
+#contatoFooter label,
+#contatoFooter input {
+    height: 50px;            
+}
+#contatoFooter label {
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 80px;
+    background: #36015D;
+}
+#contatoFooter input {
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#contatoFooter label img {
+    height: 50px;
+}
+.enviarMsg {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.container.text-center #sobreCol1Footer,
+.container.text-center #sobreCol2Footer,
+.container.text-center #sobreCol3Footer,
+.container.text-center #sobreCol4Footer {
+    text-align: left;
+}
+#cardTextPrimaryFooter {
+    background: #561E7F;
+    color: #fff;
+}
+#cardTextSecondFooter {
+    background: #36015D;
+}
+.ahrefIcons {
+    margin-top: 20px;
+    display: inline-flex;
+    grid-gap: 60px;
+}
+
+.ahrefIcons img {
+    height: 30px;
+    transition: 200ms ease-in-out;
+}
+
+.imagemIcon {
+    transition: filter 0.3s ease;
+    cursor: pointer;
+  }
+  
+.ahrefIcons:hover .imagemIcon {
+    filter: blur(5px);
+}
+  
+.ahrefIcons .imagemIcon:hover {
+    filter: none;
+    transform: scale(1.5);
+    transition: 200ms ease-in-out;
+}
+
+#cardTextSecondFooter p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
 }
